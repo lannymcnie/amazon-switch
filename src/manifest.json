@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Switch Amazons",
+  "description": "Toggle between Amazon.com and Amazon.ca",
+  "version": "1.0",
+  "background": {
+    "scripts": [
+      "amazon-switch.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "icon-48.png"
+  },
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent"
+  ]
+}
